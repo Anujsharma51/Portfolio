@@ -44,20 +44,29 @@ const Cont = styled.div`
     padding: 10px 20px;
     margin: auto 10px;
     outline: none;
-    background-color: gainsboro;
+    background-color: white;
     border: none;
     border-radius: 5px;
+    border: 1px solid #222831;
     cursor: pointer;
   }
-
-  .button:hover {
-    background-color: #2ecc71;
+  .preview {
+    padding: 10px 20px;
+    margin: auto 10px;
+    outline: none;
+    background-color: #222831;
+    border-radius: 5px;
+    /* border-radius: none; */
+    color: white;
+    /* border-radius: 5px; */
+    border: none;
+    cursor: pointer;
   }
-
-  .button:active {
-    background-color: #2ecc71;
-    box-shadow: 0 5px #95a5a6;
-    transform: translateY(4px);
+  .button:hover {
+    border: 1px solid #101216;
+  }
+  .preview:hover {
+    background-color: #101216;
   }
 `;
 
@@ -81,6 +90,9 @@ export default function ProjectItem({ el }) {
                     </a> */}
           <a href={el.github} target="_blank" rel="noreferrer">
             <button className="button">Github</button>
+          </a>
+          <a href={el.netlify} target="_blank" rel="noreferrer">
+            <button className="preview">Preview</button>
           </a>
         </div>
       </div>

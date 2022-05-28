@@ -23,11 +23,13 @@ const Nav = styled.div`
 
   a {
     color: inherit;
-    text-decoration: inherit;
+    /* text-decoration: inherit; */
+    text-decoration: none !important;
   }
 
   a:hover {
     color: #00adb5;
+    font-size: 20px;
   }
 
   .cont {
@@ -54,28 +56,28 @@ const Nav = styled.div`
 
   .cont > div:nth-of-type(1) {
     color: ${(props) => (props.selected === "Home" ? "#00adb5" : "#eeeeee")};
-    border-bottom: ${(props) =>
-      props.selected === "Home" ? "2px solid #00adb5" : "none"};
+    /* border-bottom: ${(props) =>
+      props.selected === "Home" ? "2px solid #00adb5" : "none"}; */
   }
 
   .cont > div:nth-of-type(2) {
     color: ${(props) => (props.selected === "About" ? "#00adb5" : "#eeeeee")};
-    border-bottom: ${(props) =>
-      props.selected === "About" ? "2px solid #00adb5" : "none"};
+    /* border-bottom: ${(props) =>
+      props.selected === "About" ? "2px solid #00adb5" : "none"}; */
   }
 
   .cont > div:nth-of-type(3) {
     color: ${(props) =>
       props.selected === "Projects" ? "#00adb5" : "#eeeeee"};
-    border-bottom: ${(props) =>
-      props.selected === "Projects" ? "2px solid #00adb5" : "none"};
+    /* border-bottom: ${(props) =>
+      props.selected === "Projects" ? "2px solid #00adb5" : "none"}; */
   }
 
   .cont > div:nth-of-type(4) {
     color: ${(props) =>
       props.selected === "Contact Me" ? "#00adb5" : "#eeeeee"};
-    border-bottom: ${(props) =>
-      props.selected === "Contact Me" ? "2px solid #00adb5" : "none"};
+    /* border-bottom: ${(props) =>
+      props.selected === "Contact Me" ? "2px solid #00adb5" : "none"}; */
   }
 `;
 

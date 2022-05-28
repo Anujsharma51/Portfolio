@@ -47,7 +47,7 @@ export default function About() {
             A Full Stack Developer who is dedicated and honest with his work and
             believes in hard work.<br></br> Loves to accept challenges and work
             on them with full dedication. Motivated to refine skills and have
-            experience.<br></br> in collaborative projects with good team
+            experience<br></br> in collaborative projects with good team
             communication.
           </p>
         </div>

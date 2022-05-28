@@ -29,8 +29,9 @@ export default function Projects() {
     {
       id: 1,
       title: "Bigbasket",
-      desc: "  is an Indian online grocery delivery service. The company primarily distributes groceries found in convenience stores, household essentials and food supplies to its customers.",
+      desc: " Bigbasket is an Indian online grocery delivery service. The company primarily distributes groceries found in convenience stores, household essentials and food supplies to its customers.",
       demo: null,
+      netlify: "https://roaring-biscuit-218e07.netlify.app/",
       github:
         "https://github.com/Snehil133/BigBasketProject/tree/main/big-basket%20clone",
       main: "/lenskart.webp",
@@ -39,10 +40,11 @@ export default function Projects() {
     {
       id: 2,
       title: "Zoom car",
-      desc: "Zoomcar, is the Largest car sharing platform, headquartered in Bangalore, India. The company was founded in 2013 by David Back and Greg Moran .",
+      desc: "Zoomcar is the Largest car sharing platform, headquartered in Bangalore, India. The company was founded in 2013 by David Back and Greg Moran .",
       demo: null,
       github: "https://github.com/chaitu786/Zoom_car.Com",
       main: "/boat.webp",
+      netlify: "https://papaya-marshmallow-80e2a7.netlify.app/",
       stack: ["/html.webp", "css.webp", "javascript.webp", "nodejs2.webp"],
     },
     {
@@ -51,6 +53,7 @@ export default function Projects() {
       desc: "This article is about the company. For the news channels owned by the company, see NDTV India and NDTV 24x7.",
       demo: null,
       github: "https://github.com/huzaifa621/ndtv",
+      netlify: "https://csb-tdbg0f.netlify.app/",
       main: "/boat.webp",
       stack: [
         "/html.webp",

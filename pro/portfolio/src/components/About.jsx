@@ -44,10 +44,11 @@ export default function About() {
         <div className="top-section">
           <img src="photo.webp" alt="" />
           <p>
-            A Passionate aspiring Full-Stack Web Developer skilled in MERN stack
-            who loves solving problems. <br /> A Polyglot who is adept at coding
-            in Javascript, Java and Python 3. <br />A dedicated team player
-            enthusiastic to be part of a product-based company.
+            A Full Stack Developer who is dedicated and honest with his work and
+            believes in hard work.<br></br> Loves to accept challenges and work
+            on them with full dedication. Motivated to refine skills and have
+            experience.<br></br> in collaborative projects with good team
+            communication.
           </p>
         </div>
       </div>

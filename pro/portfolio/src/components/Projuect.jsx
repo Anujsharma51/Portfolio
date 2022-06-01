@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ProjectItem from "./ProjectItem";
 
 const Proj = styled.div`
-  margin-top: 80px;
+  margin-top: 50px;
   padding-bottom: 40px;
 
   .items {
@@ -65,16 +65,18 @@ export default function Projects() {
     },
   ];
   return (
-    <Proj>
-      <h1>Projects</h1>
+    <section id="projects">
+      <Proj>
+        <h1>Projects</h1>
 
-      <div className="items">
-        {data.map((el) => (
-          <div key={el.id}>
-            <ProjectItem el={el}></ProjectItem>
-          </div>
-        ))}
-      </div>
-    </Proj>
+        <div className="items">
+          {data.map((el) => (
+            <div key={el.id}>
+              <ProjectItem el={el}></ProjectItem>
+            </div>
+          ))}
+        </div>
+      </Proj>
+    </section>
   );
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 const Nav = styled.div`
   width: 100%;
   height: 60px;
@@ -87,13 +88,13 @@ export default function Navbar() {
     <Nav selected={selected}>
       <div className="cont">
         <div onClick={() => setSelected("Home")}>
-          <Link to="/">Home</Link>
+          <Link to="home">Home</Link>
         </div>
         <div onClick={() => setSelected("About")}>
-          <Link to="/about">About</Link>
+          <Link to="about">About</Link>
         </div>
         <div onClick={() => setSelected("Projects")}>
-          <Link to="/projects">Projects</Link>
+          <Link to="projects">Projects</Link>
         </div>
         <div>
           <a

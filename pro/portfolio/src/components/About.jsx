@@ -38,22 +38,24 @@ const Container = styled.div`
 
 export default function About() {
   return (
-    <Container>
-      <div className="about">
-        <h1>About</h1>
-        <div className="top-section">
-          <img src="photo.webp" alt="" />
-          <p>
-            A Full Stack Developer who is dedicated and honest with his work and
-            believes in hard work.<br></br> Loves to accept challenges and work
-            on them with full dedication. Motivated to refine skills and have
-            experience<br></br> in collaborative projects with good team
-            communication.
-          </p>
+    <section id="about">
+      <Container>
+        <div className="about">
+          <h1>About</h1>
+          <div className="top-section">
+            <img src="photo.webp" alt="" />
+            <p>
+              A Full Stack Developer who is dedicated and honest with his work
+              and believes in hard work.<br></br> Loves to accept challenges and
+              work on them with full dedication. Motivated to refine skills and
+              have experience<br></br> in collaborative projects with good team
+              communication.
+            </p>
+          </div>
         </div>
-      </div>
-      <TechStack />
-      <Proficiencies />
-    </Container>
+        <TechStack />
+        <Proficiencies />
+      </Container>
+    </section>
   );
 }

@@ -43,14 +43,17 @@ const Container = styled.div`
 `;
 const Home = () => {
   return (
-    <Container className="body">
-      <img src="/photo.webp" alt="" />
-      <div>
-        Hey <span>👋</span> I'm <span className="highlight"> Anuj Sharma</span>
-        <br />
-        <span className="small-text"> A Full-Stack Web Developer</span>
-      </div>
-    </Container>
+    <section id="home">
+      <Container className="body">
+        <img src="/photo.webp" alt="" />
+        <div>
+          Hey <span>👋</span> I'm{" "}
+          <span className="highlight"> Anuj Sharma</span>
+          <br />
+          <span className="small-text"> A Full-Stack Web Developer</span>
+        </div>
+      </Container>
+    </section>
   );
 };
 

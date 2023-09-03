@@ -98,7 +98,7 @@ export default function Navbar() {
         </div>
         <div>
           <a
-            href="https://drive.google.com/file/d/1pVplEUM_DvYfeWhTpMcbBGCj2HdrKc15/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rXoYnO72DmBx2caNs9jaVDvVEmGp9r-i/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
